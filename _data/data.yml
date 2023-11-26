@@ -1,0 +1,234 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+  position: right # position of the sidebar : left or right
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
+
+  # Profile information
+  name: Tran Thanh Thong
+  tagline: DevOps Engineer
+  avatar: profile-wibu.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+  # Sidebar links
+  email: tranthongspkt@gmail.com
+  phone: 0978645737
+  timezone: Vietnam/Indochina Time
+  citizenship:
+  #website: blog.webjeda.com #do not add http://
+  #linkedin: alandoe
+  #xing: alandoe
+  #github: sharu725
+  #telegram: # add your nickname without '@' sign
+  #gitlab:
+  #bitbucket:
+  #twitter: '@webjeda'
+  #stack-overflow: # Number/Username, e.g. 123456/alandoe
+  #codewars:
+  #goodreads: # Number-Username, e.g. 123456-alandoe
+  pdf: https://www.topcv.vn/xem-cv/UlVXVwEBBQAGVgNUVFQCVVEBVloHVVwPCFRaDwa6ed
+
+  languages:
+    title: Languages
+    info:
+      - idiom: English
+        level: Native
+
+  interests:
+    title: Interests
+    info:
+      - item: Racing
+        link:
+
+education:
+  title: Education
+  info:
+    - degree: Information Technology
+      university: UNIVERSITY OF TECHNOLOGY AND EDUCATION HCM CITY
+
+      #time: 2011 - 2012
+
+career-profile:
+  title: Career Profile
+  summary: |
+    To succed in an enviroment of growth and excellence and earn a job which provides me job satisfaction and self - development and help me achieve personal as well organisational goals
+
+experiences:
+  title: Experiences
+  info:
+    - company: APOLLO TECHNOLOGY SOLUTIONS COMPANY LIMITED, HCM City
+      role: DevOps Engineer
+      time: January 2022  - Now
+      details: |
+        - Deploy and migration Production on new infrastructure include:
+            + Images, Deployment, Database
+            + Data Pipeline
+            + Application
+        - Configure CI/CD pipelines for the repositories, helmchart app, data pipelines ,service in the project.
+        - 
+        - Supported development team to fix issues on dev/staging/production enviroment.
+        - Review and estimate new features with SM, responsible for release new version.
+        - Deploy the app using helmchart (ElasticSearch, Kafka, Cerebro, Spark Apache, Hadoop, Nifi, Neo4j, Logstash, Mongodb, Mysql, Redis, Minio S3, Milvus, kube-prometheus-stack, Kafka Connect UI,...)
+        - Maintenance and upgrade (Rancher, Kubernetes, Harbor, Prometheus, Grafana,....)
+        - Operation and handling of jammed data streams.
+        - Write technical documents, runbook deploy for stakeholder,…
+        - Check for CVE Vulnerability.
+
+    - company: BIN Corporation Group, HCM City
+      role: Linux System Admin
+      time: February 2021 - January 2022
+      details: |
+        - Configure, deploy and operate Zimbra mail server.
+        - Manage vps on vmware esxi, OVH, centrally manage via vcenter.
+        - Management asterisk PBX.
+        - Deploy servers as request of the superior.
+        - System maintenance and backup, transfer database from one server to another.
+        - Configure, deploy services with EC2, DNS service management Route53, configure NATGateway, ACL, RDS,  Security Group for Database DNBC Finance.
+        - Research monitoring Mail server with Grafana with Prometheus
+        - Research Jenkins, Docker, Git.
+        - Research and deploy new solutions as company need.
+
+    - company: KPMG VIETNAM
+      role: IT Service
+      time: November 2019 - November 2020
+      details: |
+        - IT inventory keeping (laptops, adapter, mouse, etc.).
+        - Prepare IT equipment for new joiner (laptop, cable, mouse, etc.).
+        - Helpdesk services:
+            + Create, move and delete users & computers in AD.
+            + Infrastructure devices monitoring (HP sever, load balancer, Ciscoswitch).
+            + Set up video conference equipment, familiar with model equipment.
+            + Troubleshooting printer issues (paper jam, out of toner, etc.).
+            + Microsoft Office troubleshooting (Outlook, Word, Excel, Power Point,etc.).
+            + Troubleshooting Windows OS (Windows 7, Windows 10) issues.
+            + Investigate laptop problems (sound, graphic card, screen, power, etc.)and giveuser solution   or help fixing.
+            + Contact with vendor for laptop replacement, warranty.
+            + WDS Server, Printer Server, Jamf Server administrator.
+            + Support network problems (connection, wifi).
+            + Give user instructions for laptop issues, new services.
+            + Support over phone or in person.
+
+certifications:
+  title: Certifications
+  list:
+    - name: Agile Software Development with Scrum
+      start: 2018
+      end:
+      organization: Axon Active
+      credentialid:
+      credentialurl: https://www.axonactive.com/
+      credentialname: Axon Active
+      #details: |
+
+    - name: CMC IT Helpdesk Course 04
+      start: 2019
+      end:
+      organization: CMC TSSG
+      credentialid:
+      credentialurl: https://cmcts.com.vn/
+      credentialname: CMC TSSG
+      #details: |
+
+# projects:
+#   title: Projects
+#   intro: >
+#     You can list your side projects in this
+#     section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#     Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#   assignments:
+#     - title: Velocity
+#       link: '#hook'
+#       tagline: 'A responsive website template designed to help startups promote, market and sell their products.'
+
+#     - title: DevStudio
+#       link: '#'
+#       tagline: 'A responsive website template designed to help web developers/designers market their services.'
+
+#     - title: Tempo
+#       link: '#'
+#       tagline: 'A responsive website template designed to help startups promote their products or services and to attract users &amp; investors'
+
+#     - title: Atom
+#       link: '#'
+#       tagline: 'A comprehensive website template solution for startups/developers to market their mobile apps.'
+
+#     - title: Delta
+#       link: '#'
+#       tagline: 'A responsive Bootstrap one page theme designed to help app developers promote their mobile apps'
+
+# oss:
+#   title: OSS Contributions
+#   intro: >
+#     You can list your open source software contributions in this
+#     section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#     Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#   contributions:
+#     - title: Tempo
+#       link: '#'
+#       tagline: 'A responsive website template designed to help startups promote their products or services and to attract users &amp; investors'
+
+#     - title: Atom
+#       link: '#'
+#       tagline: 'A comprehensive website template solution for startups/developers to market their mobile apps.'
+
+#     - title: Delta
+#       link: '#'
+#       tagline: 'A responsive Bootstrap one page theme designed to help app developers promote their mobile apps'
+
+# publications:
+#   title: Publications
+#   intro: |
+#     You can list your publications in this section. Lorem ipsum dolor sit
+#     amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#     bibendum fringilla a eu lectus.
+#   papers:
+#     - title: The Art of Computer Programming
+#       link: '#'
+#       authors: Donald E. Knuth
+#       conference: Addison-Wesley, 1968
+
+#     - title: 'Genetic Programming III: Darwinian Invention &amp; Problem Solving'
+#       link: '#'
+#       authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#       conference: 'Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)'
+
+#     - title: A syntax directed compiler for Algol 60
+#       link: '#'
+#       authors: Edgar T. Irons
+#       conference: 'Comm. ACM 4 (1961), 51–55'
+
+skills:
+  title: Skills & Proficiency
+
+  toolset:
+    - name: Kubernetes
+      level:
+
+    - name: Docker
+      level:
+
+    - name: Gitlab CI/CD
+      level:
+
+    - name: Ansible
+      level:
+
+    - name: Prometheus
+      level:
+
+    - name: ElasticSearch
+      level:
+
+    - name: AWS CloudFormation
+      level:
+
+    - name: Python Scripting
+      level:
+
+    - name: Helmchart
+      level:
+
+footer: >
+  Designed with Zed
