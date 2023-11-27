@@ -34,7 +34,7 @@ sidebar:
     title: Languages
     info:
       - idiom: English
-        level:
+        #level:
 
 education:
   title: Education
