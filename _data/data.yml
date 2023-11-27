@@ -34,13 +34,13 @@ sidebar:
     title: Languages
     info:
       - idiom: English
-        level: Native
+        level:
 
-  interests:
-    title: Interests
-    info:
-      - item: Racing
-        link:
+  # interests:
+  #   title: Interests
+  #   info:
+  #     - item: Racing
+  #       link:
 
 education:
   title: Education
