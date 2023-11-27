@@ -67,7 +67,6 @@ experiences:
             + Data Pipeline
             + Application
         - Configure CI/CD pipelines for the repositories, helmchart app, data pipelines ,service in the project.
-        - 
         - Supported development team to fix issues on dev/staging/production enviroment.
         - Review and estimate new features with SM, responsible for release new version.
         - Deploy the app using helmchart (ElasticSearch, Kafka, Cerebro, Spark Apache, Hadoop, Nifi, Neo4j, Logstash, Mongodb, Mysql, Redis, Minio S3, Milvus, kube-prometheus-stack, Kafka Connect UI,...)
