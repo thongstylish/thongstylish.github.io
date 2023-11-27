@@ -30,11 +30,11 @@ sidebar:
   #goodreads: # Number-Username, e.g. 123456-alandoe
   pdf: https://www.topcv.vn/xem-cv/UlVXVwEBBQAGVgNUVFQCVVEBVloHVVwPCFRaDwa6ed
 
-  languages:
-    title: Languages
-    info:
-      - idiom: English
-        #level:
+#  languages:
+#    title: Languages
+#    info:
+#      - idiom: English
+#        level:
 
 education:
   title: Education
